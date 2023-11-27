@@ -1,0 +1,9 @@
+1. Cechy charakterystyczne języka XML
+- język znaczników,
+-znaczniki definiuje programista,
+- jest językiem rozszerzalnym, czyli programista decyduje ile będzie znaczników i jak je zagnieździć,
+- pliki XML możemy otworzyć w dowolnym edytorze tekstu,
+- pliki XMl możemy wyeksportować do innych formatów np. CSV, JSON,
+- istnieje jeden główny znacznik zwany rootem,
+- każdy dokument XML zawiera prolog, w którym znajduję się oznaczenie wersji języka XML np. 11 oraz sposób kodowania polskich znaków np. UTF-8,
+- w dokumentach XML umieszczamy komentarze tak jak w HTML.

@@ -1,0 +1,27 @@
+View -  to wszystko to co widzi uzytkownik w ramach interfejsu uzytkownikia. Jest to kontener (pudelko), ktor mozemy rozbic na mniejsze kawalki. Wszystkie elementy wewnatrz pudelka to tez sa view (widoki), ale pelniace rozne funkjce. np:
+- ImageView - to widok slucacy do wyswietlania grafiki. 
+- TextView - to widok sluzacy do wyswietlania tekstu.
+- Button - to widok przycisku.
+Wszystkie te elemnty dziedzicza po elemencie View.
+
+Z punku widzenia javy widoki sa obiektami.
+Wszystkie elementy interfejsu uzytkownika znajduja sie na ukladach. 2 najpopularniejsze iulklady to uklad linearny(LinearLayout) i relatywny(RelativeLayout).
+
+Inne popularne widoki:
+EditText - to pole do ktorego mozemy wprowadzic iformacje(tekst, liczby).
+Spinner - to lista rozwijalna.
+RadioButton - sluzy do wyboru jednej opcji.
+CheckBox - 
+RatingBar - sluzy do wystawiania ocen.
+Switch - moze przybrac 2 stany - on lub off.
+SeekBar - suwak, mozna np zmniejszyc jasnosc w telefonie.
+SearchView - widok do wyszukiwania.
+ProgressBar - ikona ładowania.
+
+View
+2 obowiązkowe atrybuty dla każdego widoku to szerokosc i wysokosc czyli Layout_width i Layout_height. Te atrybuty moga przyjmowac 3 wartosci:
+"match_parent" - oznacza, że dostosowuje sie wielkoscia do rodzica.
+"wrap_content" - oznacza, ze wieklkosc komponentu dostosuje sie do jego zawartosci.
+jednostki miary:
+dp - jednostka niezalezna od gestosci pikseli, stosujemy do podawania wymiarow komponentow.
+sp - jednostka uwzgledniajaca ustawienia uzytkownika w telefonie.

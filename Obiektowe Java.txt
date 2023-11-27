@@ -1,0 +1,23 @@
+1. Typy widoczności
+- public
+- private
+- protected
+- package - domyślny typ widoczności stosowany w środowisku, który oznacza, 
+że klasy w danej aplikacji można trzymać w pakietach.
+Mechanizm działa tak jak drzewo folderów w systemie operacyjnym.
+Słowo kluczowe package służy do deklarowania przynależności
+klasy do danego pakietu.
+2. Pola
+Jeśli chcemy przechowywać w klasie pewne informacje tworzymy pola.
+W javie nie można przechowywać danych, które nie należą do danego obiektu.
+Wyjątkiem są pola statyczne, które należą do definicji klasy, a nie do jej obiektu.
+Pola zawierają typ widoczności PRIVATE.
+3. Referencja - adres komórki pamięci, w której znajduje się instancja klasy.
+Referencja posiada także typ obiektu na który wskazuje. Zapis:
+typ_referencji nazwa_referencji
+np.  Osoba osoba = new Osoba();
+Korzystając ze słowa kluczowego neew alokujemy obszar pamięci operacyjnej komputera
+na przechowywanie obiektu danego typu. Następnie znajduję się konstruktor danej klasy.
+Do pól danej klasy odwołujemy pisząc referencję, wstawiając symbol kropki następnie 
+wstawiając nazwę pola. 
+np. osoba.imie = "Zbychu"

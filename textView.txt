@@ -1,0 +1,12 @@
+09.01.2023
+
+Temat:Widok TextView
+
+Istotne atrybuty komponenu tekstowego:
+- text <- definiuje zawartość widoku tekstowego
+- textSize <- wielkość rozmiaru tekstu podawana w jednostkach sp
+- textStyle <- styl tekstu np. pogróbienie,pochył
+- textColor <- definiuje kolor tekstu 
+- background <- definiuje kolor tła w kodzie szesnastkowym
+- gravity <- powoduje że zmieni się położenie zawarości danego komponentu
+- layout_gravity <- powoduje że zmieni się położenie całego komponenu

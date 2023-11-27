@@ -1,0 +1,19 @@
+Aplikacja mobilna to: 
+- z punktu widzenia użytkownika to ogólna nazwa oprogramowania działającego na urządzeniach
+przenośnych np. telefony, tablety, czy smartwatch.TV
+
+- z punktu widzenia developera, który ma zamiar tworzyć taką aplikację to:
+a) interfejs użytkownika
+b) logika aplikacji, czyli kod źródłowy, który określa co się stanie, gdy np. naciśniemy
+jakiś przycisk lub dotkniemy ekranu w określony sposób
+c) możliwość wykonywania operacji na danych np. logowania użytkownika do aplikacja, 
+zapisywania wyników gry, zapisywainie informacji w kalendarzach, w książkach adresowych itp.
+
+Technologie:
+- do stworzenia interfejsu będziemy używać język XML,
+- do zbudowania logiki aplikacji język Java,
+- zarządzanie danymi technologia SQLite.
+inne technologie:
+- Java/ Kotlin ---> android studio
+- C++/ Java/ C# ----> Xamarin
+- Python ----> Kivy

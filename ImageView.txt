@@ -1,0 +1,21 @@
+Służy do wyświetlania obrazów (bitmap), jest również stosowany do nakładania odcieni na obraz oraz obsługi skalowania obrazu.
+Wszystkie grafiki, które będziemy wykorzystywali w naszej aplikacji powinny znaleźć się w folderze z zasobami o nazwie res.
+Zaś plik z grafiką powinien znajdować się w folderze drawable. res/drawable/obraz.jpg.
+Nazwy plików z grafiką muszą rozpoczynać się małą literą i musi to być jeden wyraz.
+Atrybut scaleType sprawi, że rozmiar grafiki się zmieni, jest to atrybut służący do skalowania grafiki, 
+src służy do wgrywania grafiki.
+android:scaleType="..."
+Wartości scaleType:
+- center
+- centerCrop
+- centerInside
+https://developer.android.com/reference/android/widget/ImageView?hl=en#attr_android:scaleType
+android:src="@drawable/nazwapliku"
+
+Aby utworzyć bardziej rozbudowany interfejs należy skorzystać z układów, czyli layouts.
+Wszystkie te układy mają źródło w abstrakcyjnej klasie ViewGroups, która bezpośrednio dziedziczy po klasie View i stanowi bazę
+dla takich popularnych układów jak:
+- Linear Layout, 
+- Relative Layouts, 
+- GridLayout i innych 
+ViewGroup to widok, który może zawierać w sobie inne widoki.

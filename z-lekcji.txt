@@ -1,0 +1,52 @@
+National Park
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+        android:text="Android National Park"
+            android:layout_weight = "1"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:gravity="center"
+            android:background = "#6F3F35"
+        android:fontFamily="sans-serif-light"
+        android:textSize="34sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+       <ImageView
+       android:gravity="center"
+       android:src="@drawable/abboudi"
+       android:padding="10dp"
+       android:layout_width="match_parent"
+           android:layout_weight = "2"
+       android:layout_height="100dp"/>
+
+        <TextView
+        android:text="Description"
+            android:layout_weight = "1"
+        android:padding="10dp"
+        android:textColor="#FFF"
+        android:gravity="center"
+            android:background = "#DC745E"
+        android:fontFamily="sans-serif-light"
+        android:textSize="34sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+        <TextView
+        android:text="Tekst Tekst Tekst Tekst  Tekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst TekstTekst Tekst Tekst Tekst Tekst Tekst Tekst Tekst"
+            android:layout_weight = "3"
+        android:padding="5dp"
+        android:textColor="#FFF"
+        android:gravity="center"
+            android:background = "#ECD64D"
+        android:fontFamily="sans-serif-light"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+View- wszystko to, co widzi użytkownik w ramach interfejsu użytkownika
+Jest to kontener, który można rozbić na mniejsze kawałki.
+Widoki mogą pełnić różne funkcje np.:
+- ImageView - wyświetlanie grafiki
+- TextView - wyświetlanie tekstu
+- Button - przycisk 
+Wszystkie te elementy dziedziczą po elemencie view.
+Z punktu widzenia Javy, widoki są obiektami
+Wszystkie elementy interfejsu użytkownika znajdują się na układach. Dwa najpopularniejsze układy
+to układ linearny (LinearLayout) i układ relatywny (RelativeLayout).
+Inne popularne widoki:
+- EditText - pole, do którego możemy wprowadzić informacje
+- Spinner - lista rozwijalna
+- Checkbox 
+- Radiobutton
+- RatingBar - wystawienie ocen
+- Switch 
+- SeekBar - suwak
+- SearchView - do wyszukiwania
+- ProgressBar - do ładowania
+
+View
+Dwa obowiązkowe atrybuty dla każdegi widoku to wysokość i szerokość, czyli: 
+layout-width i layout-height. Te atrybuty mogą przyjmować trzy wartości:
+- match_parent - oznacza, że dostosuje się wielkością do rodzica
+- wrap_content - oznacza, że wielkość komponentu dostosuje się do jego zawartości
+- jednostki miary:
+	- dp (digital pixel) - jednostka niezależna, stosujemy do określania wymiarów komponentów
+	- sp - jednostka uwzględniająca ustawienia użytkownika w telefonie

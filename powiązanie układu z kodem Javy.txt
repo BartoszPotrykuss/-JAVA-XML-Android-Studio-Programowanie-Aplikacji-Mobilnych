@@ -1,0 +1,8 @@
+Główny plik aktywności w Javie, będzie się nazywał MainActicity.java, a w interfejsie użytkownika utworzony zostanie plik
+activity_main.xml
+Interfejs użytkownika zostanie powiązany z daną aktywnością poprzez instrukcję setContentView(R.layout.activity_main);
+R - klasa automatycznie generowana przez środowisko, aby możliwe było śledzenie zasobów dostępnych w danej aplikacji.
+R.id - stanowi kolekcję widgetów zdefiniowanych w ramach interfejsu XML
+
+Poszczególne widgety np. button zostaną zaadresowane za pomocą metody findViewById(...). np. 
+Button nazwa_btn = findViewById(R.id.nazwa_btn);

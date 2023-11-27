@@ -1,0 +1,19 @@
+Najważniejsze atrybuty tego układu:
+- orientacja układu; 
+andorid:orientation
+Wartością atrybutu orientation może być:
+	- vertical (poziomo)
+	- horizontal (pionowo)
+- waga dla każde z pojedynczych elementów tego układu;
+Waga określa ile miejsca zajmie dany widok na ekranie
+android:layout_weight
+Domyślna waga to 0. Im wyższa waga tym więcej miejsca zajmie element
+
+
+Ważne:
+- orientation (vertical, horizontal)
+- fill model (match_parent, wrap_contents)
+- weight (0,1,2, ...n)
+- gravity (top, bottom, center, ...)
+- padding (dp-dev.independent pixels)
+- margin (dp-dev.independent pixels)
