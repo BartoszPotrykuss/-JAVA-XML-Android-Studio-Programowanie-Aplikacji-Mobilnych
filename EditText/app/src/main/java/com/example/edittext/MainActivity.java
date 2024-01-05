@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText imie;
     EditText nazwisko;
+    EditText haslo;
     Button btn;
     TextView txt2;
 
@@ -25,31 +26,30 @@ public class MainActivity extends AppCompatActivity {
         nazwisko = findViewById(R.id.nazwisko);
         btn = findViewById(R.id.btn);
         txt2 = findViewById(R.id.txt2);
+        haslo = findViewById(R.id.haslo);
 
         btn.setOnClickListener(e -> {
 
-            String mes1 = imie.getText().toString();
-            String mes2 = nazwisko.getText().toString();
+            String imieText = imie.getText().toString();
+            String nazwiskoText = nazwisko.getText().toString();
+            String hasloText = haslo.getText().toString();
             String czyDuza;
 
-            if (mes1.isEmpty() || mes2.isEmpty())
-            {
+            if (imieText.isEmpty() || nazwiskoText.isEmpty()) {
                 //AlertDialog
                 Toast.makeText(this, "Uzupełnij wszystkie pola", Toast.LENGTH_LONG).show();
-            }
-            else
-            {
-                if (mes1.charAt(0) == mes1.toUpperCase().charAt(0))
-                {
+            } else {
+                if (imieText.charAt(0) == imieText.toUpperCase().charAt(0)) {
                     czyDuza = "Twoje imię jest zapisane z dużej litery";
-                }
-                else
-                {
+                } else {
                     czyDuza = "Twoje imię jest zapisane z małej litery";
                 }
 
-                txt2.setText("Imię: " + mes1 + "\n Nazwisko: " + mes2 + "\n " + czyDuza);
+                txt2.setText("Imię: " + imieText + "\n Nazwisko: " + nazwiskoText + "\n " + czyDuza + "\n Hasło: " + hasloText);
             }
+            imie.getText().clear();
+            nazwisko.getText().clear();
+            haslo.getText().clear();
                 }
         );
     }
