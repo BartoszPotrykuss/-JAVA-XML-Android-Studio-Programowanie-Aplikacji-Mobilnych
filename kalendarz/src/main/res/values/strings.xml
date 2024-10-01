@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">kalendarz</string>
+    <string-array name="dni">
+        <item>Dzień 1</item>
+        <item>Dzień 2</item>
+        <item>Dzień 3</item>
+        <item>Dzień 4</item>
+        <item>Dzień 5</item>
+        <item>Dzień 6</item>
+        <item>Dzień 7</item>
+        <item>Dzień 8</item>
+        <item>Dzień 9</item>
+        <item>Dzień 10</item>
+        <item>Dzień 11</item>
+        <item>Dzień 12</item>
+        <item>Dzień 13</item>
+        <item>Dzień 14</item>
+    </string-array>
+</resources>

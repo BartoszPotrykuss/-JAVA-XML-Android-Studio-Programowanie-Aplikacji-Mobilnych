@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">listView</string>
+    <string name="dodaj_samochod">Dodaj samochod</string>
+    <string name="pokaz_liste">Pokaz liste</string>
+    <string name="ukryj_liste">Ukryj liste</string>
+    <string-array name="samochody">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Mercedes</item>
+    </string-array>
+</resources>

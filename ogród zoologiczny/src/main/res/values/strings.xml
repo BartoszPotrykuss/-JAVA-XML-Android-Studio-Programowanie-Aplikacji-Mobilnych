@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ogrod zoologiczny</string>
+    <string-array name="zwierzeta">
+        <item>pingwin</item>
+        <item>struś</item>
+    </string-array>
+</resources>
